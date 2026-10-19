@@ -259,4 +259,4 @@ const addOwn=l=>form('Własna pozycja',[['t','Treść','text']],{},o=>{(S.custom
 const delOwn=(l,id)=>{S.custom[l]=S.custom[l].filter(x=>x.id!==id);delete S.chk[id];change()};
 const visForm=()=>form('Wasza wizja',[['feel','Gdy wyobrażam sobie ten dzień, chcę czuć…','area'],['words','Trzy słowa opisujące nasz ślub','text']],S.settings,o=>{Object.assign(S.settings,o);change()});
 load();recalc();render();
-</script></body></html>
+</script></body></html> 
